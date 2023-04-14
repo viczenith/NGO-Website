@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-us{
+    background-image: url(/images/img2.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    padding-top: 4rem;
+}
+
+.our-projects{
+    background-image: url(/images/img3.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    padding-top: 4rem;
+}
+
+.our-gallery{
+    background-image: url(/images/png1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+}
+.gallery-details .g-details{
+    width: 10%;
+    padding-left: 4rem;
+}
+
+.about-us h1{
+    color: var(--white);
+    font-size: 50px;
+    padding-top: 8rem;
+    margin-left: 3rem;
+    text-decoration:underline;
+}
+
+/* =========comment ============ */
+.comments{
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.comments span{
+    color: orange;
+    font-size: 25px;
+}
+
+.coment1 p{
+    font-family: cursive;
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.name1{
+    font-size: 16px;
+    margin-left: 6rem;
+    font-style: italic;
+}
+
+.instant-help{
+    background-color: var(--lightgrey);
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 7rem;
+}
+
+.donate{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.donate h2{
+    font-size: 40px;
+}
